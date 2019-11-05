@@ -1,0 +1,15 @@
+{application, rdm_erlang,
+ [{description, "Redis Desktop Manager Erlang Formatter"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib,
+    jsx
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
