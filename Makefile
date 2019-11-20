@@ -30,3 +30,6 @@ get-deps:
 clean:
 	$(REBAR) clean -a
 	$(RM) -r $(BUILD_DIR)
+
+test:
+	$(REBAR) test
