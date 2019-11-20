@@ -32,4 +32,4 @@ clean:
 	$(RM) -r $(BUILD_DIR)
 
 test:
-	$(REBAR) test
+	$(REBAR) eunit
